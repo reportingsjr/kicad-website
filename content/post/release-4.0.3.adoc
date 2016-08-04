@@ -33,14 +33,7 @@ Below is a list of some commits related to a reported bug:
 * https://bugs.launchpad.net/kicad/+bug/1559545[Fix graphics rendering on RTL systems.]
 * https://bugs.launchpad.net/kicad/+bug/1529358[Eeschema: fix illegal field characters causing corrupt schematic files on Linux.]
 * https://bugs.launchpad.net/kicad/+bug/1578637[Multiple monitor loses window when single monitor]
-* https://bugs.launchpad.net/kicad/+bug/[]
-* https://bugs.launchpad.net/kicad/+bug/[]
-* https://bugs.launchpad.net/kicad/+bug/[]
-* https://bugs.launchpad.net/kicad/+bug/[]
-* https://bugs.launchpad.net/kicad/+bug/[]
-* https://bugs.launchpad.net/kicad/+bug/[]
-* https://bugs.launchpad.net/kicad/+bug/[]
-* https://bugs.launchpad.net/kicad/+bug/[]
+
 ==== Some changes without a bug tracking number
 
 * Pcbnew: Disable FPS limiter for OSX (GAL).
