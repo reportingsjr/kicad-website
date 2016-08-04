@@ -1,0 +1,62 @@
++++
+title = "KiCad 4.0.3 released"
+date = "2016-08-06"
++++
+
+A new release of KiCad has been made, containing only minor bug fixes.
+
+This release contains a new snapshot of the docs, libs, and the kicad-i18n repo.
+
+As last time, version 4.0.3 is made from the
+link:https://code.launchpad.net/~stambaughw/kicad/4.0[lp:kicad/4.0]
+branch with some cherry picked changes from the development branch.
+
+KiCad binaries will be available for download for Windows, OSX and
+Linux in the near future, see the link:../../download[download page]
+for guidance.
+
+Instructions for packagers can be found on
+link:../../download/source/[the download page describing how to build
+from source] and its subpages.
+
+=== Changes
+
+Below is a list of some commits related to a reported bug:
+
+* https://bugs.launchpad.net/kicad/+bug/1545708[Eeschema: fix bug where global bus labels were being ignored.]
+* https://bugs.launchpad.net/kicad/+bug/1547299[Fix bug in component library editor.]
+* https://bugs.launchpad.net/kicad/+bug/1529159[OSX: fix bug caused by wxBitmap drawing 0 width or heigth bitmap.]
+* https://bugs.launchpad.net/kicad/+bug/1538805[Pcbnew: prevent delete hot key from deleting locked footprints.]
+* https://bugs.launchpad.net/kicad/+bug/1551579[PnS: More accurate pushout force calculation for circle-segment collisions]
+* https://bugs.launchpad.net/kicad/+bug/1550620[Fix environment variable initialization issue on Linux.]
+* https://bugs.launchpad.net/kicad/+bug/1549231[Pcbnew: create array dialog fixes.]
+* https://bugs.launchpad.net/kicad/+bug/1559545[Fix graphics rendering on RTL systems.]
+* https://bugs.launchpad.net/kicad/+bug/1529358[Eeschema: fix illegal field characters causing corrupt schematic files on Linux.]
+* https://bugs.launchpad.net/kicad/+bug/1578637[Multiple monitor loses window when single monitor]
+* https://bugs.launchpad.net/kicad/+bug/[]
+* https://bugs.launchpad.net/kicad/+bug/[]
+* https://bugs.launchpad.net/kicad/+bug/[]
+* https://bugs.launchpad.net/kicad/+bug/[]
+* https://bugs.launchpad.net/kicad/+bug/[]
+* https://bugs.launchpad.net/kicad/+bug/[]
+* https://bugs.launchpad.net/kicad/+bug/[]
+* https://bugs.launchpad.net/kicad/+bug/[]
+==== Some changes without a bug tracking number
+
+* Pcbnew: Disable FPS limiter for OSX (GAL).
+* Pcbnew: fix a crash when trying to export a footprint in a non writable directory, or if a non writable old file was existing.
+* Pcbnew: Various fixes to DXF import.
+* Pcbnew: prevent zone tool from switching to no tool when deleting zone corner.
+* Eeschema: fix build error due to field auto place code merged along with bug fix.
+* Correct multiple UI spelling errors.
+* Pcbnew: Mark locked tracks with 'L' letter in status field.
+* Eeschema: make footprint and datasheet initially invisible, when creating a component.
+* Eeschema: updated footprint field after picking from footprint viewer in the eeschema LIB_PART or component text field properties editors.
+* Fix: footprint libraries wizard fails with personal GitHub accounts
+* OSX: back port touchpad support from development branch.
+
+There are a few other commits not mentioned above, if you are
+interested have a look at the history at
+http://bazaar.launchpad.net/~stambaughw/kicad/4.0/changes/[the commit
+log] between the relevant tags.
+
